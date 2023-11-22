@@ -1,0 +1,224 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+header {
+  background-color: #333333b7;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Устанавливаем высокий z-index, чтобы шапка была поверх других элементов */
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+nav {
+  display: flex;
+  justify-items: center;
+  justify-content: space-evenly;
+}
+
+nav a {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em 1em;
+}
+
+nav a:hover, nav a:active {
+  background-color: #555555;
+}
+
+section {
+  margin-top: 80px;
+  text-align: center;
+  height: 400px;
+  padding: 4em;
+  margin: auto;
+  background-color: #f0f0f0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  font-size: 68px;
+  font-variant: normal;
+  font-weight: 700;
+  vertical-align: baseline;
+  margin: 10px;
+  color: #ff9900;
+}
+
+h3 {
+  font-size: 52px;
+  font-variant: normal;
+  color: #ff9900
+}
+
+
+h4 {
+  font-size: 20px;
+  font-variant: normal;
+  color: #ff9900
+}
+
+
+
+li {
+  font-size: 18px;
+  text-align: left;
+}
+
+#section {
+  background-color: #333;
+  color: #fff;
+}
+
+
+/* Section1 */
+.image {
+  background-image: url('/images/saws1.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 300px; /* Задайте ширину изображения по вашему желанию */
+  height: 400px; /* Задайте высоту изображения по вашему желанию */
+  border-radius: 8px;
+  max-width: 100%;
+  margin-right: 10em;
+}
+
+.info-band-saws {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.info1 {
+  text-align: left;
+  width: 700px;
+}
+
+
+
+/* Section2 */
+.image1 {
+  background-image: url('/images/saws2jpg.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 400px; /* Задайте ширину изображения по вашему желанию */
+  height: 300px; /* Задайте высоту изображения по вашему желанию */
+  border-radius: 8px;
+  max-width: 100%;
+  margin-left: 10em;
+}
+
+.info-band-saws_2 {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  
+} 
+
+
+.info2 {
+  text-align: left;
+  width: 600px;
+}
+
+/* Section4 */
+
+
+#section4 {
+  height: 40em;
+}
+
+
+/* FeedBack  */
+
+
+
+.order {
+  height: 600px;
+  background-image: url("../Images/order_bg.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-bottom: 180px;
+  overflow: hidden;
+}
+
+.order .container {
+  position: relative;
+}
+
+.order-image {
+  position: absolute;
+  top: 0;
+  right: calc(100% - 764px);
+  z-index: -1;
+}
+
+.order-form {
+  background: #211a16;
+  border: 1px solid #353535;
+  border-radius: 16px;
+  margin-top: 60px;
+  max-width: 426px;
+  box-sizing: border-box;
+  padding: 60px 40px;
+  margin-left: 674px;
+}
+
+.order-form-text {
+  color: #fff;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+
+.order-form-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.order-form-input {
+  background: linear-gradient(95.61deg, #DA8023 0%, #E2B438 100%);
+  width: 344px;
+  height: 62px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.order-form-input input {
+  padding: 20px 10px; 
+  background: #211A16;
+  border-radius: 8px;
+  width: 342px;
+  height: 60px;
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid transparent;
+  color: white;
+}
+
+.order-form-inputs .button {
+  width: 344px;
+  height: 62px;
+}
