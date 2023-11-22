@@ -4,8 +4,8 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  height: 100vh;
   scroll-behavior: smooth;
+
 }
 header {
   background-color: #333333b7;
@@ -41,11 +41,17 @@ nav a {
 nav a:hover, nav a:active {
   background-color: #555555;
 }
-
+.style-p{
+  width: 100%;
+  font-size: 20px;
+  padding: 20px;
+  background-color: #333333b7;
+  border-radius: 10px;
+}
 section {
   margin-top: 80px;
   text-align: center;
-  height: 400px;
+  height: 450px;
   padding: 4em;
   margin: auto;
   background-color: #f0f0f0;
@@ -59,33 +65,49 @@ h1, h2 {
   vertical-align: baseline;
   margin: 10px;
   color: #ff9900;
+  z-index: 1;
 }
 
 h3 {
   font-size: 52px;
   font-variant: normal;
-  color: #ff9900
+  color: #ff9900;
+  z-index: 1;
 }
 
 
 h4 {
   font-size: 20px;
   font-variant: normal;
-  color: #ff9900
+  color: #ff9900;
+  z-index: 1;
 }
 
-
+p{
+  margin-top: 40px;
+}
 
 li {
   font-size: 18px;
   text-align: left;
 }
 
-#section {
-  background-color: #333;
+.scroll-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
   color: #fff;
+  padding: 100px;
+  transition: background 0.5s ease-in-out; /* Добавляем плавный переход для фона */
 }
-
+.scroll-section.active {
+  background-size: 110%; /* Увеличиваем размер фона для активной секции */
+  color: #ffffff; /* Изменяем цвет текста для активной секции */
+}
 
 /* Section1 */
 .image {
@@ -97,12 +119,20 @@ li {
   border-radius: 8px;
   max-width: 100%;
   margin-right: 10em;
+  border: solid 2px gray;
+  transition: transform 0.3s ease-in-out; /* Добавляем плавный переход */
 }
+
+.image:hover {
+  transform: scale(1.2); /* Увеличиваем изображение при наведении на 10% */
+}
+
 
 .info-band-saws {
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+  z-index: 1;
 }
 
 .info1 {
@@ -117,12 +147,19 @@ li {
   background-image: url('/images/saws2jpg.jpg');
   background-size: cover;
   background-position: center;
-  width: 400px; /* Задайте ширину изображения по вашему желанию */
+  width: 500px; /* Задайте ширину изображения по вашему желанию */
   height: 300px; /* Задайте высоту изображения по вашему желанию */
   border-radius: 8px;
+  margin-left: 1em;
   max-width: 100%;
-  margin-left: 10em;
+  border: solid 2px gray;
+  transition: transform 0.3s ease-in-out; /* Добавляем плавный переход */
 }
+
+.image1:hover {
+  transform: scale(1.1); /* Увеличиваем изображение при наведении на 10% */
+}
+
 
 .info-band-saws_2 {
   margin: auto;
@@ -130,13 +167,36 @@ li {
   align-items: center;
   justify-content: center;
   flex-direction: row-reverse;
-  
-} 
-
+  z-index: 1;
+}
 
 .info2 {
   text-align: left;
   width: 600px;
+}
+
+.info-band-saws_2 ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.info-band-saws_2 li {
+  text-align: center;
+  width: 180px;
+  height: 100%;
+  font-size: 22px;
+  background-color: #333333b7;
+  border-radius: 10px;
+  margin-right: 25px;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Плавный переход */
+}
+
+.info-band-saws_2 li:hover {
+  transform: scale(1.2); /* Увеличиваем размер при наведении на 20% */
+  cursor: pointer;
 }
 
 /* Section4 */
@@ -151,35 +211,39 @@ li {
 
 
 
-.order {
-  height: 600px;
-  background-image: url("../Images/order_bg.png");
-  background-position: top center;
-  background-repeat: no-repeat;
-  padding-bottom: 180px;
-  overflow: hidden;
-}
+
 
 .order .container {
   position: relative;
 }
 
-.order-image {
-  position: absolute;
-  top: 0;
-  right: calc(100% - 764px);
-  z-index: -1;
+.button {
+  
+  background: linear-gradient(96deg, #DA8023 0%, #E2B438 100%);
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  color: #191411;
+}
+
+.button:hover{
+  background: linear-gradient(96deg, #ac6115 0%, #9e7a19 100%);
 }
 
 .order-form {
+  margin: auto;
   background: #211a16;
   border: 1px solid #353535;
   border-radius: 16px;
-  margin-top: 60px;
   max-width: 426px;
   box-sizing: border-box;
   padding: 60px 40px;
-  margin-left: 674px;
 }
 
 .order-form-text {
@@ -221,4 +285,114 @@ li {
 .order-form-inputs .button {
   width: 344px;
   height: 62px;
+}
+
+iframe {
+  z-index: 1;
+}
+/* SECTIONS */
+#section {
+  height: 500px;
+  background-image: url('images/sec1.jpg'); /* Укажите путь к вашей фотографии */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Цвет текста, чтобы он был виден на фоне */
+  text-align: center;
+  padding: 100px; /* Регулируйте отступы по своему усмотрению */
+  color: #fff;
+  position: relative;
+}
+
+#section1 {
+  background-image: url('images/sec2.jpg'); /* Укажите путь к вашей фотографии */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Цвет текста, чтобы он был виден на фоне */
+  text-align: center;
+  padding: 100px; /* Регулируйте отступы по своему усмотрению */
+  position: relative;
+}
+#section1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.226); /* Черный фон с 50% прозрачностью */
+}
+#section2 {
+  background-image: url('images/sec3.jpg'); /* Укажите путь к вашей фотографии */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Цвет текста, чтобы он был виден на фоне */
+  text-align: center;
+  padding: 100px; /* Регулируйте отступы по своему усмотрению */
+  position: relative;
+}
+#section2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Черный фон с 50% прозрачностью */
+}
+
+#section3 {
+  background-image: url('images/sec4.jpg'); /* Укажите путь к вашей фотографии */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Цвет текста, чтобы он был виден на фоне */
+  text-align: center;
+  padding: 100px; /* Регулируйте отступы по своему усмотрению */
+  position: relative;
+}
+#section3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Черный фон с 50% прозрачностью */
+}
+#section4 {
+  background-image: url('images/sec5.jpg'); /* Укажите путь к вашей фотографии */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Цвет текста, чтобы он был виден на фоне */
+  text-align: center;
+  padding: 100px; /* Регулируйте отступы по своему усмотрению */
+  position: relative;
+}
+#section4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Черный фон с 50% прозрачностью */
+}
+
+.order {
+  height: 700px;
+  background-image: url("../Images/order.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Цвет текста, чтобы он был виден на фоне */
+  text-align: center;
+  padding: 100px; /* Регулируйте отступы по своему усмотрению */
+  position: relative;
+}
+#order::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Черный фон с 50% прозрачностью */
 }
