@@ -104,7 +104,7 @@ li {
 
 /* Section1 */
 .image {
-  background-image: url('/images/saws1.jpg');
+  background-image: url('images/saws1.jpg');
   background-size: cover;
   background-position: center;
   width: 300px; /* Задайте ширину изображения по вашему желанию */
@@ -137,7 +137,7 @@ li {
 
 /* Section2 */
 .image1 {
-  background-image: url('/images/saws2jpg.jpg');
+  background-image: url('images/saws2jpg.jpg');
   background-size: cover;
   background-position: center;
   width: 500px; /* Задайте ширину изображения по вашему желанию */
@@ -217,7 +217,7 @@ iframe {
 /* SECTIONS */
 #section {
   height: 500px;
-  background-image: url('./images/sec1.jpg'); /* Укажите путь к вашей фотографии */
+  background-image: url('images/sec1.jpg'); /* Укажите путь к вашей фотографии */
   background-size: cover;
   background-position: center;
   color: #fff; /* Цвет текста, чтобы он был виден на фоне */
@@ -228,7 +228,7 @@ iframe {
 }
 
 #section1 {
-  background-image: url('./images/sec2.jpg'); /* Укажите путь к вашей фотографии */
+  background-image: url('images/sec2.jpg'); /* Укажите путь к вашей фотографии */
   background-size: cover;
   background-position: center;
   color: #fff; /* Цвет текста, чтобы он был виден на фоне */
@@ -246,7 +246,7 @@ iframe {
   background: rgba(0, 0, 0, 0.226); /* Черный фон с 50% прозрачностью */
 }
 #section2 {
-  background-image: url('./images/sec3.jpg'); /* Укажите путь к вашей фотографии */
+  background-image: url('images/sec3.jpg'); /* Укажите путь к вашей фотографии */
   background-size: cover;
   background-position: center;
   color: #fff; /* Цвет текста, чтобы он был виден на фоне */
@@ -265,7 +265,7 @@ iframe {
 }
 
 #section3 {
-  background-image: url('./images/sec4.jpg'); /* Укажите путь к вашей фотографии */
+  background-image: url('images/sec4.jpg'); /* Укажите путь к вашей фотографии */
   background-size: cover;
   background-position: center;
   color: #fff; /* Цвет текста, чтобы он был виден на фоне */
@@ -283,7 +283,7 @@ iframe {
   background: rgba(0, 0, 0, 0.5); /* Черный фон с 50% прозрачностью */
 }
 #section4 {
-  background-image: url('./images/sec5.jpg'); /* Укажите путь к вашей фотографии */
+  background-image: url('images/sec5.jpg'); /* Укажите путь к вашей фотографии */
   background-size: cover;
   background-position: center;
   color: #fff; /* Цвет текста, чтобы он был виден на фоне */
