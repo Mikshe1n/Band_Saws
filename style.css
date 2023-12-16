@@ -8,6 +8,7 @@ body {
 
 }
 
+
 header {
   background-color: #333333b7;
   color: #fff;
@@ -222,8 +223,8 @@ li {
 
 
 iframe {
-  width: 50%;
-  height: 50vh;
+  width: 90%;
+  height: 50vw;
   z-index: 1;
 }
 /* SECTIONS */

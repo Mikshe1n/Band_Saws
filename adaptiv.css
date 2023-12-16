@@ -168,3 +168,217 @@
     text-align: center;
   }
 }
+
+@media (max-width: 414px) {
+  header {
+    padding: 0px;
+  }
+  nav a {
+    width: 50px;
+    font-size: 14px;
+    color: #fff;
+    margin: auto;
+    padding: 5px;
+  }
+  
+  h1, h2 {
+    font-size: 40px;
+  }
+  
+  h3 {
+    font-size: 36px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  
+  li {
+    font-size: 18px;
+  }
+  
+  .image {
+    width: 200px; /* Задайте ширину изображения по вашему желанию */
+    height: 300px; /* Задайте высоту изображения по вашему желанию */
+    
+    
+  }
+  .image1 {
+    width: 250px; /* Задайте ширину изображения по вашему желанию */
+    height: 250px; /* Задайте высоту изображения по вашему желанию */
+  }
+  .info1 {
+    text-align: left;
+    width: 320px;
+}
+  .info2 {
+    width: 350px;
+  }
+  .info-band-saws_2 {
+    margin-left: -80px;
+  }
+  .info-band-saws_2 li {
+    width: 125px;
+    height: 100%;
+    font-size: 14px;
+    margin-right: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+    
+  }
+  .info-band-saws_3 {
+    margin-left: -50px;
+  }
+
+  footer {
+    
+    text-align: center;
+  }
+ 
+}
+
+@media (max-width: 425px) {
+  header {
+    padding: 0px;
+  }
+  nav a {
+    width: 50px;
+    font-size: 14px;
+    color: #fff;
+    margin: auto;
+    padding: 5px;
+  }
+  
+  h1, h2 {
+    font-size: 40px;
+  }
+  
+  h3 {
+    font-size: 36px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  
+  li {
+    font-size: 18px;
+  }
+  
+  .image {
+    width: 200px; /* Задайте ширину изображения по вашему желанию */
+    height: 300px; /* Задайте высоту изображения по вашему желанию */
+    
+    
+  }
+  .image1 {
+    width: 250px; /* Задайте ширину изображения по вашему желанию */
+    height: 250px; /* Задайте высоту изображения по вашему желанию */
+  }
+  .info1 {
+    text-align: left;
+    width: 320px;
+}
+  .info2 {
+    width: 350px;
+  }
+  .info-band-saws_2 {
+    margin-left: -80px;
+  }
+  .info-band-saws_2 li {
+    width: 125px;
+    height: 100%;
+    font-size: 14px;
+    margin-right: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+    
+  }
+  .info-band-saws_3 {
+    margin-left: -50px;
+  }
+
+  footer {
+    
+    text-align: center;
+  }
+ 
+}
+
+@media (max-width: 375px) {
+  header {
+    padding: 0px;
+  }
+  nav a {
+    width: 50px;
+    font-size: 14px;
+    color: #fff;
+    margin: auto;
+    padding: 5px;
+  }
+  
+  h1, h2 {
+    font-size: 40px;
+  }
+  
+  h3 {
+    font-size: 36px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  
+  li {
+    font-size: 16px;
+  }
+  
+  .image {
+    width: 200px; /* Задайте ширину изображения по вашему желанию */
+    height: 300px; /* Задайте высоту изображения по вашему желанию */
+    
+    
+  }
+  .image1 {
+    width: 250px; /* Задайте ширину изображения по вашему желанию */
+    height: 250px; /* Задайте высоту изображения по вашему желанию */
+  }
+  .info1 {
+    text-align: left;
+    width: 320px;
+}
+  .info2 {
+    width: 300px;
+  }
+  .info-band-saws_2 {
+    margin-left: -80px;
+  }
+
+  .info-band-saws_2 li {
+    width: 38%;
+    height: 100%;
+    font-size: 14px;
+    margin-right: 2px;
+    padding: 10px;
+    box-sizing: border-box;
+    
+  }
+  .info-band-saws_3 {
+    margin-left: -50px;
+  }
+
+  footer {
+    
+    text-align: center;
+  }
+ 
+}
