@@ -12,11 +12,10 @@ header {
   background-color: #333333b7;
   color: #fff;
   padding: 1em;
+  width: 100%;
+  overflow: hidden;
   text-align: center;
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
   z-index: 1000; /* Устанавливаем высокий z-index, чтобы шапка была поверх других элементов */
 }
 footer {
@@ -36,6 +35,7 @@ nav a {
   font-size: 18px;
   color: #fff;
   text-decoration: none;
+  margin: auto;
   padding: 0.5em 1em;
 }
 
@@ -113,12 +113,9 @@ li {
   max-width: 100%;
   margin-right: 10em;
   border: solid 2px gray;
-  transition: transform 0.3s ease-in-out; /* Добавляем плавный переход */
 }
 
-.image:hover {
-  transform: scale(1.2); /* Увеличиваем изображение при наведении на 10% */
-}
+
 
 
 .info-band-saws {
@@ -146,12 +143,8 @@ li {
   margin-left: 1em;
   max-width: 100%;
   border: solid 2px gray;
-  transition: transform 0.3s ease-in-out; /* Добавляем плавный переход */
 }
 
-.image1:hover {
-  transform: scale(1.1); /* Увеличиваем изображение при наведении на 10% */
-}
 
 
 .info-band-saws_2 {
@@ -173,25 +166,43 @@ li {
   padding: 0;
   margin: 0;
   display: flex;
+  box-sizing: border-box;
 }
 
 .info-band-saws_2 li {
   text-align: center;
   width: 180px;
   height: 100%;
-  font-size: 22px;
+  font-size: 18px;
   background-color: #333333b7;
   border-radius: 10px;
   margin-right: 25px;
   padding: 20px;
-  transition: transform 0.3s ease-in-out; /* Плавный переход */
 }
 
-.info-band-saws_2 li:hover {
-  transform: scale(1.2); /* Увеличиваем размер при наведении на 20% */
-  cursor: pointer;
+
+.info-band-saws_3 {
+  margin: auto;
+  display: flex;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  z-index: 1;
+}
+.info-band-saws_3 ul {
+  list-style: none;
+  box-sizing: border-box;
 }
 
+.info-band-saws_3 li {
+  font-size: 18px;
+  background-color: #333333b7;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+
+}
 /* Section4 */
 
 
@@ -211,7 +222,8 @@ li {
 
 
 iframe {
-  height: 20vw;
+  width: 50%;
+  height: 50vh;
   z-index: 1;
 }
 /* SECTIONS */
@@ -243,7 +255,7 @@ iframe {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.226); /* Черный фон с 50% прозрачностью */
+  background: rgba(0, 0, 0, 0.5); /* Черный фон с 50% прозрачностью */
 }
 #section2 {
   background-image: url('images/sec3.jpg'); /* Укажите путь к вашей фотографии */
@@ -261,7 +273,7 @@ iframe {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5); /* Черный фон с 50% прозрачностью */
+  background: rgba(0, 0, 0, 0.6); /* Черный фон с 50% прозрачностью */
 }
 
 #section3 {
@@ -280,7 +292,7 @@ iframe {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5); /* Черный фон с 50% прозрачностью */
+  background: rgba(0, 0, 0, 0.55); /* Черный фон с 50% прозрачностью */
 }
 #section4 {
   background-image: url('images/sec5.jpg'); /* Укажите путь к вашей фотографии */
@@ -290,7 +302,6 @@ iframe {
   text-align: center;
   padding: 100px; /* Регулируйте отступы по своему усмотрению */
   position: relative;
-  z-index: -2;
 }
 #section4::before {
   content: "";
@@ -300,7 +311,6 @@ iframe {
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5); /* Черный фон с 50% прозрачностью */
-  z-index: -1;
 }
 
 
@@ -308,3 +318,5 @@ iframe {
   max-width: 8vh;
   max-height: 8vh;
 }
+
+

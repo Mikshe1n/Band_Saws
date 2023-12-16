@@ -1,0 +1,170 @@
+/* media */
+
+
+/* laptop */
+@media (max-width: 1024px) {
+    header {
+      width: 100%;
+    }
+    h1, h2 {
+      font-size: 58px;
+    }
+    
+    h3 {
+      font-size: 42px;
+    }
+    
+    
+    h4 {
+      font-size: 20px;
+    }
+    
+    li {
+      font-size: 18px;
+    }
+    .image1 {
+      width: 250px; /* Задайте ширину изображения по вашему желанию */
+      height: 300px; /* Задайте высоту изображения по вашему желанию */
+    }
+    .image {
+      width: 230px; /* Задайте ширину изображения по вашему желанию */
+      height: 400px; /* Задайте высоту изображения по вашему желанию */
+      margin-right: 2em;
+    }
+    .info-band-saws_2 li {
+      width: 160px;
+      height: 100%;
+      font-size: 18px;
+      margin-right: 10px;
+      padding: 15px;
+      box-sizing: border-box;
+    }
+    footer {
+      text-align: center;
+    }
+}
+
+
+
+/* Tablet */
+@media (max-width: 768px) {
+
+  
+  
+  h1, h2 {
+    font-size: 58px;
+  }
+  
+  h3 {
+    font-size: 46px;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  
+  li {
+    font-size: 16px;
+  }
+  .image1 {
+    width: 200px; /* Задайте ширину изображения по вашему желанию */
+    height: 200px; /* Задайте высоту изображения по вашему желанию */
+  }
+  .image {
+    width: 230px; /* Задайте ширину изображения по вашему желанию */
+    height: 400px; /* Задайте высоту изображения по вашему желанию */
+    margin-right: 2em;
+    
+  }
+  .info1 {
+
+    width: 450px;
+}
+  .info2 {
+    
+    width: 400px;
+    
+  }
+  .info-band-saws {
+    display: flex;
+    flex-direction: column;
+  }
+  .info-band-saws_2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .info-band-saws_2 li {
+    width: 125px;
+    height: 100%;
+    font-size: 14px;
+    margin-right: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+    
+  }
+  footer {
+    
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+
+  
+  
+  h1, h2 {
+    font-size: 40px;
+  }
+  
+  h3 {
+    font-size: 32px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+  h4 {
+    font-size: 12px;
+  }
+  
+  li {
+    font-size: 14px;
+  }
+  
+  .image {
+    width: 200px; /* Задайте ширину изображения по вашему желанию */
+    height: 300px; /* Задайте высоту изображения по вашему желанию */
+    margin-right: 2em;
+    
+  }
+  .image1 {
+    width: 200px; /* Задайте ширину изображения по вашему желанию */
+    height: 200px; /* Задайте высоту изображения по вашему желанию */
+  }
+  .info1 {
+    text-align: left;
+    width: 320px;
+}
+  .info2 {
+
+    width: 400px;
+    
+  }
+  .info-band-saws_2 li {
+    width: 125px;
+    height: 100%;
+    font-size: 14px;
+    margin-right: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+    
+  }
+
+  footer {
+    
+    text-align: center;
+  }
+}
