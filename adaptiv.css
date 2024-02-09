@@ -103,18 +103,13 @@
     margin-right: 5px;
     padding: 15px;
     box-sizing: border-box;
-    
   }
   footer {
-    
+    display: inline-block;
     text-align: center;
   }
 }
-
 @media (max-width: 500px) {
-
-  
-  
   h1, h2 {
     font-size: 40px;
   }
@@ -129,16 +124,13 @@
   h4 {
     font-size: 12px;
   }
-  
   li {
     font-size: 14px;
   }
-  
   .image {
     width: 200px; /* Задайте ширину изображения по вашему желанию */
     height: 300px; /* Задайте высоту изображения по вашему желанию */
     margin-right: 2em;
-    
   }
   .image1 {
     width: 200px; /* Задайте ширину изображения по вашему желанию */
@@ -147,11 +139,9 @@
   .info1 {
     text-align: left;
     width: 320px;
-}
+  }
   .info2 {
-
     width: 400px;
-    
   }
   .info-band-saws_2 li {
     width: 125px;
@@ -160,15 +150,11 @@
     margin-right: 5px;
     padding: 15px;
     box-sizing: border-box;
-    
   }
-
   footer {
-    
     text-align: center;
   }
 }
-
 @media (max-width: 414px) {
   header {
     padding: 0px;
@@ -180,7 +166,6 @@
     margin: auto;
     padding: 5px;
   }
-  
   h1, h2 {
     font-size: 40px;
   }
@@ -199,12 +184,9 @@
   li {
     font-size: 18px;
   }
-  
   .image {
     width: 200px; /* Задайте ширину изображения по вашему желанию */
-    height: 300px; /* Задайте высоту изображения по вашему желанию */
-    
-    
+    height: 300px; /* Задайте высоту изображения по вашему желанию */      
   }
   .image1 {
     width: 250px; /* Задайте ширину изображения по вашему желанию */
@@ -213,7 +195,7 @@
   .info1 {
     text-align: left;
     width: 320px;
-}
+  }
   .info2 {
     width: 350px;
   }
@@ -227,19 +209,15 @@
     margin-right: 5px;
     padding: 15px;
     box-sizing: border-box;
-    
   }
   .info-band-saws_3 {
     margin-left: -50px;
   }
-
   footer {
     
     text-align: center;
   }
- 
 }
-
 @media (max-width: 425px) {
   header {
     padding: 0px;
@@ -255,27 +233,21 @@
   h1, h2 {
     font-size: 40px;
   }
-  
   h3 {
     font-size: 36px;
   }
-  
   p {
     font-size: 18px;
   }
   h4 {
     font-size: 20px;
   }
-  
   li {
     font-size: 18px;
   }
-  
   .image {
     width: 200px; /* Задайте ширину изображения по вашему желанию */
     height: 300px; /* Задайте высоту изображения по вашему желанию */
-    
-    
   }
   .image1 {
     width: 250px; /* Задайте ширину изображения по вашему желанию */
@@ -284,7 +256,7 @@
   .info1 {
     text-align: left;
     width: 320px;
-}
+  }
   .info2 {
     width: 350px;
   }
@@ -298,19 +270,14 @@
     margin-right: 5px;
     padding: 15px;
     box-sizing: border-box;
-    
   }
   .info-band-saws_3 {
     margin-left: -50px;
   }
-
   footer {
-    
     text-align: center;
   }
- 
 }
-
 @media (max-width: 375px) {
   header {
     padding: 0px;
@@ -322,31 +289,24 @@
     margin: auto;
     padding: 5px;
   }
-  
   h1, h2 {
     font-size: 40px;
   }
-  
   h3 {
     font-size: 36px;
   }
-  
   p {
     font-size: 18px;
   }
   h4 {
     font-size: 20px;
   }
-  
   li {
     font-size: 16px;
   }
-  
   .image {
     width: 200px; /* Задайте ширину изображения по вашему желанию */
     height: 300px; /* Задайте высоту изображения по вашему желанию */
-    
-    
   }
   .image1 {
     width: 250px; /* Задайте ширину изображения по вашему желанию */
@@ -355,14 +315,13 @@
   .info1 {
     text-align: left;
     width: 320px;
-}
+  }
   .info2 {
     width: 300px;
   }
   .info-band-saws_2 {
     margin-left: -80px;
   }
-
   .info-band-saws_2 li {
     width: 38%;
     height: 100%;
@@ -370,15 +329,11 @@
     margin-right: 2px;
     padding: 10px;
     box-sizing: border-box;
-    
   }
   .info-band-saws_3 {
     margin-left: -50px;
   }
-
   footer {
-    
     text-align: center;
   }
- 
 }
